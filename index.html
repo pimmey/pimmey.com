@@ -11,7 +11,7 @@
         }
         body {
             margin: 3rem;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             font-kerning: normal;
             -moz-font-feature-settings: 'liga', 'kern';
             -moz-osx-font-smoothing: grayscale;
@@ -19,10 +19,15 @@
             text-rendering: optimizeLegibility;
         }
         .funny-cat {
-          position: absolute;
+          position: fixed;
           right: 2rem;
           bottom: -40px;
           width: 80px;
+          transition: bottom 1s ease-out;
+        }
+
+        .funny-cat:hover {
+          bottom: 0;
         }
 
         @media only screen and (max-width: 1023px) {
@@ -38,7 +43,7 @@
 </head>
 <body>
     <h1>Yegor Borisenco</h1>
-    <h2>Software Engineer <span role="img" aria-label="hammer and pick">⚒️</span></h2>
+    <h2>Software Engineer</h2>
     <p>JavaScript, TypeScript, React, React Native, Apollo Client & styled components.</p>
     <p>Node.js, Apollo GraphQL, Express &amp; Meteor.</p>
     <hr>
