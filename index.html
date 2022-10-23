@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Yegor Borisenco is a Software Engineer, specializing in JavaScript for frontend and backend development.">
+    <meta name="description"
+          content="Yegor Borisenco is a Software Engineer, specializing in JavaScript for frontend and backend development.">
     <title>Yegor Borisenco – Software Engineer</title>
     <style>
         html {
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
         }
+
         body {
             margin: 3rem;
             font-size: 1.25rem;
@@ -18,52 +20,74 @@
             -webkit-font-smoothing: antialiased;
             text-rendering: optimizeLegibility;
         }
+
         .funny-cat {
-          position: fixed;
-          right: 2rem;
-          bottom: -40px;
-          width: 80px;
-          transition: bottom 1s ease-out;
+            position: fixed;
+            right: 2rem;
+            bottom: -40px;
+            width: 80px;
+            transition: bottom 1s ease-out;
         }
 
         .funny-cat:hover {
-          bottom: 0;
+            bottom: 0;
         }
+
         .light {
-          color: lightgray;
+            color: lightgray;
         }
 
         @media only screen and (max-width: 1023px) {
-          a {
-            padding: 10px 0;
-          }
+            a {
+                padding: 10px 0;
+            }
 
-          li {
-            margin-bottom: 28px;
-          }
+            li {
+                margin-bottom: 28px;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #181818;
+                color: #fff;
+            }
+
+            a {
+                color: deepskyblue;
+            }
+
+            a:visited {
+                color: mediumpurple;
+            }
+
+            .light {
+                color: dimgray;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Yegor Borisenco</h1>
-    <h2>Software Engineer</h2>
-    <p>JavaScript, TypeScript, React, React Native, Apollo Client &amp; styled components.</p>
-    <p>Node.js, Apollo GraphQL, NestJS &amp; Next.js. <span class="light">Express &amp; Meteor.</span></p>
-    <hr>
-    <ul>
-        <li>
-            <a href="mailto:pimmey+homepage@pimmey.com">pimmey@pimmey.com</a>
-        </li>
-        <li>
-            <a href="http://github.com/pimmey">github</a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/yegor-borisenco-a9718310b/">linkedin</a>
-        </li>
-        <li>
-            <a href="https://angel.co/yegor-borisenco">angellist</a>
-        </li>
-    </ul>
-  <img src="funny-cat.png" alt="Funny cat" class="funny-cat" />
+<h1>Yegor Borisenco</h1>
+<h2>Software Engineer</h2>
+<p>JavaScript, TypeScript, React, React Native, Next.js, Apollo Client &amp; styled components.</p>
+<p>Node.js, Apollo GraphQL &amp; NestJS.</p>
+<p class="light">Swift, SwiftUI &amp; Python.</p>
+<hr>
+<ul>
+    <li>
+        <a href="mailto:pimmey+homepage@pimmey.com">pimmey@pimmey.com</a>
+    </li>
+    <li>
+        <a href="http://github.com/pimmey">github</a>
+    </li>
+    <li>
+        <a href="https://www.linkedin.com/in/yegor-borisenco-a9718310b/">linkedin</a>
+    </li>
+    <li>
+        <a href="https://angel.co/yegor-borisenco">angellist</a>
+    </li>
+</ul>
+<img src="funny-cat.png" alt="Funny cat" class="funny-cat"/>
 </body>
 </html>
